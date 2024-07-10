@@ -1347,7 +1347,7 @@ var GetVariablesFunctions = {
             switch (senseName) {
                 case "blindsight":
                     mon.blindsight = senseDist;
-                    mon.blind = senseString.toLowerCase().includes("blind beyond");
+                    mon.blind = senseString.toLowerCase().includes("сліпий за межами");
                     break;
                 case "darkvision":
                     mon.darkvision = senseDist;
