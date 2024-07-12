@@ -1345,17 +1345,17 @@ var GetVariablesFunctions = {
                 senseName = senseString.split(" ")[0],
                 senseDist = StringFunctions.GetNumbersOnly(senseString);
             switch (senseName) {
-                case "blindsight":
+                case "сліпий":
                     mon.blindsight = senseDist;
                     mon.blind = senseString.toLowerCase().includes("сліпий за межами");
                     break;
-                case "darkvision":
+                case "темний":
                     mon.darkvision = senseDist;
                     break;
-                case "tremorsense":
+                case "чуття":
                     mon.tremorsense = senseDist;
                     break;
-                case "truesight":
+                case "істинний":
                     mon.truesight = senseDist;
                     break;
             }
